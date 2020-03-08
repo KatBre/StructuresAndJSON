@@ -38,11 +38,13 @@ public class Main {
                 Collections.sort(list, new OfferComparator(false));
             } else if (choice.startsWith("add")) {
                 //TODO: dodawanie produktów
-                String[] words = choice.split(" ");
-                String name = words[1];
-                Double price = Double.parseDouble(words[2]);
-                Offer offer = new Offer(name, price);
-
+//                // drugi sposób
+//                String[] words = choice.split(" ");
+//                String name = words[1];
+//                Double price = Double.parseDouble(words[2]);
+//                Offer offer = new Offer(name, price);
+//                list.add(offer);
+//                System.out.println("Added" + offer);
                 list.add(new Offer(scanner.nextLine(), Double.valueOf(scanner.nextLine())));
             } else if (!choice.equalsIgnoreCase("quit")) {
                 System.err.println("Unknown choice");
