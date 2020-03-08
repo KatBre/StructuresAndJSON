@@ -1,6 +1,5 @@
-package Structures.ex2;
+package structures.ex2;
 
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class Main {

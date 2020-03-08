@@ -1,4 +1,4 @@
-package Structures.ex1;
+package structures.ex1;
 
 import java.util.ArrayList;
 import java.util.Collections;

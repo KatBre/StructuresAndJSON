@@ -1,4 +1,4 @@
-package Structures.ex2;
+package structures.ex2;
 
 import java.util.Comparator;
 
